@@ -1,0 +1,271 @@
+@media (max-width: 360px) {
+  .nav {
+    flex-direction: column;
+    .brand-logo {
+      width: 100%;
+      .logo {
+        height: 4em;
+      }
+    }
+    .ul {
+      background-color: #5f6569;
+      width: 100%;
+      margin-top: -10px;
+      transform: translateX(100%);
+      transition: transform 0.5s ease-in;
+      height: 0;
+      li {
+        width: 100%;
+        text-align: center;
+        display: block;
+        border-top: 1px solid black;
+        padding: 15px 0px !important;
+        a {
+          color: $primary;
+        }
+      }
+      :hover {
+        color: white;
+        background: #1565c0;
+      }
+    }
+    .ul-active-nav {
+      transform: translate(0%);
+      height: 100%;
+    }
+    .checkbox {
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 15px;
+      font-size: 30px;
+
+      i {
+        // position: absolute;
+        // top:0;
+        // right: 0;
+        color: $primary;
+        cursor: pointer;
+      }
+    }
+  }
+  // .slider{
+
+  // }
+}
+@media (max-width: 480px) {
+  .nav {
+    flex-direction: column;
+    .brand-logo {
+      width: 100%;
+      .logo {
+        height: 4em;
+      }
+    }
+    .ul {
+      background-color: #5f6569;
+      width: 100%;
+      margin-top: -10px;
+      transform: translateX(100%);
+      transition: transform 0.5s ease-in;
+      li {
+        width: 100%;
+        text-align: center;
+        display: block;
+        border-top: 1px solid black;
+        padding: 15px 0px !important;
+      }
+      :hover {
+        color: white;
+        background: #1565c0;
+      }
+    }
+    .ul-active-nav {
+      transform: translate(0%);
+    }
+    .checkbox {
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 15px;
+      font-size: 30px;
+      i {
+        color: $primary;
+      }
+    }
+  }
+}
+@media (max-width: 600px) {
+  .nav {
+    flex-direction: column;
+    .brand-logo {
+      width: 100%;
+      .logo {
+        height: 4em;
+      }
+    }
+   .ul {
+      background-color: #5f6569;
+      width: 100%;
+      margin-top: -10px;
+      transform: translateX(100%);
+      transition: transform 0.5s ease-in;
+      li {
+        width: 100%;
+        text-align: center;
+        display: block;
+        border-top: 1px solid black;
+        padding: 15px 0px !important;
+      }
+      :hover {
+        color: white;
+        background: #1565c0;
+      }
+    }
+    .ul-active-nav {
+      transform: translate(0%);
+    }
+    .checkbox {
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 15px;
+      font-size: 30px;
+      i {
+        color: $primary;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    .brand-logo {
+      width: 100%;
+      .logo {
+        height: 4em;
+      }
+    }
+   .ul {
+      background-color: #5f6569;
+      width: 100%;
+      margin-top: -10px;
+      transform: translateX(100%);
+      transition: transform 0.5s ease-in;
+      li {
+        width: 100%;
+        text-align: center;
+        display: block;
+        border-top: 1px solid black;
+        padding: 15px 0px !important;
+      }
+      :hover {
+        color: white;
+        background: #1565c0;
+      }
+    }
+    .ul-active-nav {
+      transform: translate(0%);
+    }
+    .checkbox {
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 15px;
+      font-size: 30px;
+      i {
+        color: $primary;
+      }
+    }
+  }
+}
+@media (max-width: 900px) {
+  .nav {
+    flex-direction: column;
+    .brand-logo {
+      width: 100%;
+      .logo {
+        height: 4em;
+      }
+    }
+   .ul {
+      background-color: #5f6569;
+      width: 100%;
+      margin-top: -10px;
+      transform: translateX(100%);
+      transition: transform 0.5s ease-in;
+      li {
+        width: 100%;
+        text-align: center;
+        display: block;
+        border-top: 1px solid black;
+        padding: 15px 0px !important;
+      }
+      :hover {
+        color: white;
+        background: #1565c0;
+      }
+    }
+    .ul-active-nav {
+      transform: translate(0%);
+    }
+    .checkbox {
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 15px;
+      font-size: 30px;
+      i {
+        color: $primary;
+      }
+    }
+  }
+}
+@media (max-width: 991px) {
+  .nav {
+    flex-direction: column;
+    .brand-logo {
+      width: 100%;
+      .logo {
+        height: 4em;
+      }
+    }
+    .ul {
+      background-color: #5f6569;
+      width: 100%;
+      margin-top: -10px;
+      transform: translateX(100%);
+      transition: transform 0.5s ease-in;
+      li {
+        width: 100%;
+        text-align: center;
+        display: block;
+        border-top: 1px solid black;
+        padding: 15px 0px !important;
+      }
+      :hover {
+        color: white;
+        background: #1565c0;
+      }
+    }
+    .ul-active-nav {
+      transform: translate(0%);
+    }
+    .checkbox {
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 15px;
+      font-size: 30px;
+      i {
+        color: $primary;
+      }
+    }
+  }
+}
+@media (max-width: 992px) {
+}
+@media (max-width: 1024px) {
+}
+@media (max-width: 1200px) {
+}
