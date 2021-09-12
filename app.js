@@ -12,6 +12,6 @@ app.use(cors());
 app.use(express.static("3waysmedia"))
 app.use("/", router);
 
-app.listen(port, () => {
+app.listen(process.env.PORT||port, () => {
   console.log("Example app listening on port 3000!");
 });
